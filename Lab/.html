@@ -11,60 +11,49 @@
 <body>
     <center>
     <div class="container-md">
-        <form>
-            <h1>LAB REGISTERATION FORM</h1>
-            <table cellspacing="10" cellpadding="10">
-            <tr>
-            <td><label>PATIENT_ID</label></td>
-            <td><input type="text" name="registration_id" placeholder="Enter Patient ID"></td>
-            </tr>
-        <tr>
-            <td><label>PATIENT_NAME</label></td>
-            <td><input type="text" name="patient_name" placeholder="Eenter Patient Name"></td>
-        </tr>
-        <tr>
-            <td><label>GENDER</label></td>
-            <td><select >
-                <option value="chose your gender">chose your gender</option>
-                <option value="male">male</option>
-                <option value="female">female</option>
-                <option value="other">other</option>
-            </select></td>
-        </tr>
-        <tr>
-            <td><label>DATE_Of_BIRTH</label></td>
-            <td><input type ="date"placeholder="Select Dob"></td>
-        </tr>
-        <tr>
-            <td><label>MOBILE_NUMBER</label></td>
-            <td><input type="number" name="contact_number" placeholder="Enter Contact Number"></td>
-        </tr>
-        <tr>
-            <td><label>PATIENT_DET</label></td>
-            <td><select >
-                <option value="select patiend det">select patiend det</option>
-                <option value="in patient">in patient</option>
-                <option value="out patient">out patient</option>
-            </select></td>
-        </tr>
-        <tr>
-            <td><label>TEST_DET</label></td>
-            <td><select>
-                <option value="select test">select test</option>
-                <option value="blood test">blood test</option>
-                <option value="urine test">urine test</option>
-                <option value="x-ray">x-ray</option>
-                <option value="ct scan">ct scan</option>
-                <option value="mri">mri</option>
-            </select></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><input type="submit" value="SUBMIT"></td>
-        </tr>
-        </table>
-        </form>
+     <table>
+        <h2>Laboratory Details Form</h2>
+    
+      <tr>
+        <td>Patient Name</td>
+        <td><input type="text" name="patient_name" required></td>
+      </tr>
+      <tr>
+        <td>Patient ID</td>
+        <td><input type="text" name="patient_id" required></td>
+      </tr>
+      <tr>
+        <td>Age</td>
+        <td><input type="number" name="age" required></td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>
+          <select name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Test Type</td>
+        <td><input type="text" name="test_type" required></td>
+      </tr>
+      <tr>
+        <td>Doctor's Name</td>
+        <td><input type="text" name="doctor_name"></td>
+      </tr>
+      <tr>
+        <td>Sample Collection Date</td>
+        <td><input type="date" name="collection_date" required></td>
+      </tr>
+    </table>
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
     </div>
+        
     </center>
 
     
