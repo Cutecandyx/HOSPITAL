@@ -1,0 +1,12 @@
+ div{
+            padding: 10%;
+        }
+        table {
+            width: 35%;
+            border: outset 3px;
+            shape-outside: margin-box;
+            border-radius: 15px;
+            margin: 0 auto;
+        
+        
+        }
