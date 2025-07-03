@@ -1,14 +1,16 @@
    html{
     scroll-behavior: smooth;
+    
    }
     body{
-       font-family: Arial, sans-serif;
+      font-family: Arial, sans-serif;
       background:url(../imagelab/bck.jpg) no-repeat center center fixed;
+      background-position: fixed;
       background-size: cover;
       padding: 20px;
+      overflow: hidden;
 
-      
-      }
+    }
 
       h2 {
       text-align: center;
@@ -18,20 +20,16 @@
 
     table {
       background: transparent;
+      text-shadow:  10px black;
       color: white;
       backdrop-filter: blur(10px);
       font-size: 17px;
       width: 44%;
       margin: 0 auto;
       border-collapse: collapse;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      box-shadow: rgba(0,0,0,);
       border-radius: 8px;
       overflow: hidden;
-    }
-
-    table:hover{
-      background-image: blur(10px);
-
     }
     div input{
        background: transparent;
@@ -53,7 +51,7 @@
       text-align: center;
       color: #fff;
       width: 50%;
-      border: black;
+      border: rgb(3, 2, 2);
       font-size: 16px;
       border-radius: 4px;
     }
@@ -72,7 +70,7 @@
       margin: 20px auto;
       padding: 10px 20px;
       background: transparent;
-      color: #fff;
+      color:white;
       border: 1px solid #201f1f;
       cursor: pointer;
       font-size: 16px;
